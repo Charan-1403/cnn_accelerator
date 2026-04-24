@@ -1,0 +1,307 @@
+# run 1000ns
+=========================================================
+   GOLDEN VERIFICATION SUITE: CONV_CORE_TOP              
+=========================================================
+
+[SYSTEM] Applying Hardware Reset...
+[0] Output Invalid! Data = x
+[1] Output Invalid! Data = 0
+[2] Output Invalid! Data = 0
+[3] Output Invalid! Data = 0
+[4] Output Invalid! Data = 0
+[5] Output Invalid! Data = 0
+[6] Output Invalid! Data = x
+[7] Output Invalid! Data = x
+[8] Output Invalid! Data = x
+[9] Output Invalid! Data = x
+[SYSTEM] Reset Complete.
+[CONFIG] Loading Weights and Bias...
+[10] Output Invalid! Data = x
+[11] Output Invalid! Data = x
+[12] Output Invalid! Data = x
+[13] Output Invalid! Data = x
+[14] Output Invalid! Data = x
+[STREAM] Beginning 10x10 Image Transmission...
+[15] Output Invalid! Data = x
+[16] Output Invalid! Data = x
+[17] Output Invalid! Data = x
+[18] Output Invalid! Data = x
+[19] Output Invalid! Data = x
+[20] Output Invalid! Data = x
+[21] Output Invalid! Data = x
+[22] Output Invalid! Data = x
+[23] Output Invalid! Data = x
+[24] Output Invalid! Data = x
+[25] Output Invalid! Data = x
+[26] Output Invalid! Data = x
+[27] Output Invalid! Data = x
+[28] Output Invalid! Data = x
+[29] Output Invalid! Data = x
+[30] Output Invalid! Data = x
+[31] Output Invalid! Data = x
+[32] Output Invalid! Data = x
+[33] Output Invalid! Data = x
+[34] Output Invalid! Data = x
+[35] Output Invalid! Data = x
+[36] Output Invalid! Data = x
+[37] Output Invalid! Data = x
+[38] Output Invalid! Data = x
+[39] Output Invalid! Data = x
+[40] Output Invalid! Data = x
+[41] Output Invalid! Data = x
+[42] Output Invalid! Data = x
+[43] Output Invalid! Data = x
+[44] Output Invalid! Data = x
+[45] Output Invalid! Data = x
+
+[MONITOR] First Valid Output at Cycle: 46
+[MONITOR] Actual Latency: 31 cycles. Expected: 32 cycles.
+[46] Output #1 Valid! Data = x
+[47] Output #2 Valid! Data = 297
+[48] Output #3 Valid! Data = 324
+[49] Output #4 Valid! Data = 351
+[50] Output #5 Valid! Data = 378
+[51] Output #6 Valid! Data = 405
+[52] Output #7 Valid! Data = 432
+[53] Output #8 Valid! Data = 459
+[54] Output Invalid! Data = 486
+[55] Output Invalid! Data = 513
+[56] Output #9 Valid! Data = 540
+[57] Output #10 Valid! Data = 567
+[58] Output #11 Valid! Data = 594
+[59] Output #12 Valid! Data = 621
+
+[CORNER CASE] DMA Paused! Valid dropped for 5 cycles.
+[60] Output #13 Valid! Data = 648
+[61] Output #14 Valid! Data = 675
+[62] Output #15 Valid! Data = 702
+[63] Output #16 Valid! Data = 729
+[64] Output Invalid! Data = 756
+[65] Output Invalid! Data = 783
+[66] Output #17 Valid! Data = 810
+[67] Output #18 Valid! Data = 837
+[68] Output #19 Valid! Data = 864
+[69] Output Invalid! Data = 891
+[CORNER CASE] DMA Resumed!
+
+[70] Output Invalid! Data = 891
+[71] Output Invalid! Data = 891
+[72] Output Invalid! Data = 891
+[73] Output Invalid! Data = 891
+[74] Output Invalid! Data = 891
+[75] Output Invalid! Data = 891
+[76] Output Invalid! Data = 891
+[77] Output Invalid! Data = 891
+[78] Output Invalid! Data = 891
+[79] Output #20 Valid! Data = 891
+[80] Output #21 Valid! Data = 918
+[81] Output #22 Valid! Data = 945
+[82] Output #23 Valid! Data = 972
+[83] Output #24 Valid! Data = 999
+[84] Output Invalid! Data = 1026
+[85] Output Invalid! Data = 1053
+[86] Output #25 Valid! Data = 1080
+[87] Output #26 Valid! Data = 1107
+[88] Output #27 Valid! Data = 1134
+[89] Output #28 Valid! Data = 1161
+[90] Output #29 Valid! Data = 1188
+[91] Output #30 Valid! Data = 1215
+[92] Output #31 Valid! Data = 1242
+[93] Output #32 Valid! Data = 1269
+[94] Output Invalid! Data = 1296
+[95] Output Invalid! Data = 1323
+[96] Output #33 Valid! Data = 1350
+[97] Output #34 Valid! Data = 1377
+[98] Output #35 Valid! Data = 1404
+[99] Output #36 Valid! Data = 1431
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_conv_core_golden_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:07 ; elapsed = 00:00:11 . Memory (MB): peak = 2674.242 ; gain = 0.000
+run all
+[100] Output #37 Valid! Data = 1458
+[101] Output #38 Valid! Data = 1485
+[102] Output #39 Valid! Data = 1512
+[103] Output #40 Valid! Data = 1539
+[104] Output Invalid! Data = 1566
+[105] Output Invalid! Data = 1593
+[106] Output #41 Valid! Data = 1620
+[107] Output #42 Valid! Data = 1647
+[108] Output #43 Valid! Data = 1674
+[109] Output #44 Valid! Data = 1701
+[110] Output #45 Valid! Data = 1728
+[111] Output #46 Valid! Data = 1755
+[112] Output #47 Valid! Data = 1782
+[113] Output #48 Valid! Data = 1809
+[114] Output Invalid! Data = 1836
+[115] Output Invalid! Data = 1863
+[116] Output #49 Valid! Data = 1890
+[117] Output #50 Valid! Data = 1917
+[118] Output #51 Valid! Data = 1944
+[119] Output #52 Valid! Data = 1971
+[120] Output #53 Valid! Data = 1998
+[121] Output #54 Valid! Data = 2025
+[122] Output #55 Valid! Data = 2052
+[123] Output #56 Valid! Data = 2079
+[124] Output Invalid! Data = 2106
+[STREAM] Transmission Complete.
+[SYSTEM] Waiting for pipeline to drain...
+[125] Output Invalid! Data = 2133
+[126] Output #57 Valid! Data = 2160
+[127] Output #58 Valid! Data = 2187
+[128] Output #59 Valid! Data = 2214
+[129] Output #60 Valid! Data = 2241
+[130] Output #61 Valid! Data = 2268
+[131] Output #62 Valid! Data = 2295
+[132] Output #63 Valid! Data = 2322
+[133] Output #64 Valid! Data = 2349
+[134] Output Invalid! Data = 2376
+[135] Output Invalid! Data = 2376
+[136] Output Invalid! Data = 2376
+[137] Output Invalid! Data = 2376
+[138] Output Invalid! Data = 2376
+[139] Output Invalid! Data = 2376
+[140] Output Invalid! Data = 2376
+[141] Output Invalid! Data = 2376
+[142] Output Invalid! Data = 2376
+[143] Output Invalid! Data = 2376
+[144] Output Invalid! Data = 2376
+[145] Output Invalid! Data = 2376
+[146] Output Invalid! Data = 2376
+[147] Output Invalid! Data = 2376
+[148] Output Invalid! Data = 2376
+[149] Output Invalid! Data = 2376
+[150] Output Invalid! Data = 2376
+[151] Output Invalid! Data = 2376
+[152] Output Invalid! Data = 2376
+[153] Output Invalid! Data = 2376
+[154] Output Invalid! Data = 2376
+[155] Output Invalid! Data = 2376
+[156] Output Invalid! Data = 2376
+[157] Output Invalid! Data = 2376
+[158] Output Invalid! Data = 2376
+[159] Output Invalid! Data = 2376
+[160] Output Invalid! Data = 2376
+[161] Output Invalid! Data = 2376
+[162] Output Invalid! Data = 2376
+[163] Output Invalid! Data = 2376
+[164] Output Invalid! Data = 2376
+[165] Output Invalid! Data = 2376
+[166] Output Invalid! Data = 2376
+[167] Output Invalid! Data = 2376
+[168] Output Invalid! Data = 2376
+[169] Output Invalid! Data = 2376
+[170] Output Invalid! Data = 2376
+[171] Output Invalid! Data = 2376
+[172] Output Invalid! Data = 2376
+[173] Output Invalid! Data = 2376
+[174] Output Invalid! Data = 2376
+[175] Output Invalid! Data = 2376
+[176] Output Invalid! Data = 2376
+[177] Output Invalid! Data = 2376
+[178] Output Invalid! Data = 2376
+[179] Output Invalid! Data = 2376
+[180] Output Invalid! Data = 2376
+[181] Output Invalid! Data = 2376
+[182] Output Invalid! Data = 2376
+[183] Output Invalid! Data = 2376
+[184] Output Invalid! Data = 2376
+[185] Output Invalid! Data = 2376
+[186] Output Invalid! Data = 2376
+[187] Output Invalid! Data = 2376
+[188] Output Invalid! Data = 2376
+[189] Output Invalid! Data = 2376
+[190] Output Invalid! Data = 2376
+[191] Output Invalid! Data = 2376
+[192] Output Invalid! Data = 2376
+[193] Output Invalid! Data = 2376
+[194] Output Invalid! Data = 2376
+[195] Output Invalid! Data = 2376
+[196] Output Invalid! Data = 2376
+[197] Output Invalid! Data = 2376
+[198] Output Invalid! Data = 2376
+[199] Output Invalid! Data = 2376
+[200] Output Invalid! Data = 2376
+[201] Output Invalid! Data = 2376
+[202] Output Invalid! Data = 2376
+[203] Output Invalid! Data = 2376
+[204] Output Invalid! Data = 2376
+[205] Output Invalid! Data = 2376
+[206] Output Invalid! Data = 2376
+[207] Output Invalid! Data = 2376
+[208] Output Invalid! Data = 2376
+[209] Output Invalid! Data = 2376
+[210] Output Invalid! Data = 2376
+[211] Output Invalid! Data = 2376
+[212] Output Invalid! Data = 2376
+[213] Output Invalid! Data = 2376
+[214] Output Invalid! Data = 2376
+[215] Output Invalid! Data = 2376
+[216] Output Invalid! Data = 2376
+[217] Output Invalid! Data = 2376
+[218] Output Invalid! Data = 2376
+[219] Output Invalid! Data = 2376
+[220] Output Invalid! Data = 2376
+[221] Output Invalid! Data = 2376
+[222] Output Invalid! Data = 2376
+[223] Output Invalid! Data = 2376
+[224] Output Invalid! Data = 2376
+[225] Output Invalid! Data = 2376
+[226] Output Invalid! Data = 2376
+[227] Output Invalid! Data = 2376
+[228] Output Invalid! Data = 2376
+[229] Output Invalid! Data = 2376
+[230] Output Invalid! Data = 2376
+[231] Output Invalid! Data = 2376
+[232] Output Invalid! Data = 2376
+[233] Output Invalid! Data = 2376
+[234] Output Invalid! Data = 2376
+[235] Output Invalid! Data = 2376
+[236] Output Invalid! Data = 2376
+[237] Output Invalid! Data = 2376
+[238] Output Invalid! Data = 2376
+[239] Output Invalid! Data = 2376
+[240] Output Invalid! Data = 2376
+[241] Output Invalid! Data = 2376
+[242] Output Invalid! Data = 2376
+[243] Output Invalid! Data = 2376
+[244] Output Invalid! Data = 2376
+[245] Output Invalid! Data = 2376
+[246] Output Invalid! Data = 2376
+[247] Output Invalid! Data = 2376
+[248] Output Invalid! Data = 2376
+[249] Output Invalid! Data = 2376
+[250] Output Invalid! Data = 2376
+[251] Output Invalid! Data = 2376
+[252] Output Invalid! Data = 2376
+[253] Output Invalid! Data = 2376
+[254] Output Invalid! Data = 2376
+[255] Output Invalid! Data = 2376
+[256] Output Invalid! Data = 2376
+[257] Output Invalid! Data = 2376
+[258] Output Invalid! Data = 2376
+[259] Output Invalid! Data = 2376
+[260] Output Invalid! Data = 2376
+[261] Output Invalid! Data = 2376
+[262] Output Invalid! Data = 2376
+[263] Output Invalid! Data = 2376
+[264] Output Invalid! Data = 2376
+[265] Output Invalid! Data = 2376
+[266] Output Invalid! Data = 2376
+[267] Output Invalid! Data = 2376
+[268] Output Invalid! Data = 2376
+[269] Output Invalid! Data = 2376
+[270] Output Invalid! Data = 2376
+[271] Output Invalid! Data = 2376
+[272] Output Invalid! Data = 2376
+[273] Output Invalid! Data = 2376
+[274] Output Invalid! Data = 2376
+
+=========================================================
+   VERIFICATION SUMMARY                                  
+=========================================================
+Expected Valid Pixels: 64
+Actual Valid Pixels:   64
+-> STATUS: PASS! Edge wrap-around muting is perfect.
+=========================================================
+
+$finish called at time : 2750 ns : File "C:/Users/bozzc/cnn_accelerator/cnn_accelerator.srcs/sim_1/new/tb_conv_core.v" Line 189
